@@ -1,10 +1,28 @@
+# Ignore macOS Finder metadata files
 .DS_Store
+
+# Ignore Node.js modules
 node_modules
+
+# Ignore the build directory
 /build
+
+# Ignore SvelteKit's directory
 /.svelte-kit
+
+# dunno what this is, but it was in the boilerplate lol
 /package
+
+# Ignore environment variables (if you use them)
 .env
 .env.*
+
+# Keep the example environment file (unneccessary for this project currently)
 !.env.example
+
+# Ignore temp vite files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Ignore VSCode workspace settings
+.vscode
