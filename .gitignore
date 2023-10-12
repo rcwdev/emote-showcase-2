@@ -26,3 +26,6 @@ vite.config.ts.timestamp-*
 
 # Ignore VSCode workspace settings
 .vscode
+
+# Ignore GitHub workflow files
+.github
